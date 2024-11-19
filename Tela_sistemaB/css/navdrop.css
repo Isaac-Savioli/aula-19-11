@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/escola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: lightsalmon;
+    color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.user-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-name{
+    font-weight: bold;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lightsalmon;
+    min-width: 160px;
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: lightsalmon;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
